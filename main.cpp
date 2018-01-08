@@ -17,7 +17,7 @@ int main(void)
     hello_bar();
     nogood();
     /////////////////////////
-    int crc = 0;
+    int crc = 0
     const char* buf = "voice from hell....";
     crc = crc32((unsigned char *)buf, strlen(buf));
     printf("crc: 0x%x\n", crc);
